@@ -22,3 +22,6 @@ end
 group :production do
   gem 'rails_12factor'
 end
+
+# Added gems
+gem 'bootstrap', '~> 4.0.0alpha3.1'

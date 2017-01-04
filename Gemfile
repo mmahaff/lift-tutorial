@@ -27,3 +27,7 @@ end
 # Added gems
 gem 'bootstrap', '~> 4.0.0alpha3.1'
 gem 'react-rails'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.1.0'
+end

@@ -6,7 +6,7 @@
   addLift: (lift) ->
     lifts = @state.lifts.slice()
     lifts.push.lift
-    @setSTate lifts: lifts 
+    @setState lifts: lifts 
   render: ->
     React.DOM.div
       className: 'lifts'

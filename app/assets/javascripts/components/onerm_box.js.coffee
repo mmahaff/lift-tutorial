@@ -9,4 +9,4 @@
           '1 RM Estimate'
         React.DOM.h3
           className: 'card-text text-xs-center'
-          @props.onerm 
+          @props.onerm
